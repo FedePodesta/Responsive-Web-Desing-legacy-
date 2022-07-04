@@ -1,0 +1,45 @@
+
+
+body {
+    
+    line-height: 1.4;
+    background-color: #c0e3eb;
+    width:500px;
+    margin: auto;
+}
+
+form {
+    background-color: rgba(162, 90, 126, 0.2);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px -1px 5px 2px;
+   
+    
+}
+
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(97, 20, 20);
+    color:white;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+.input-headings {
+    margin:0 auto 1.25rem auto;
+    padding: 0.25rem;
+
+}
+
+.for-inputs {
+    display:block;
+    width:90%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}

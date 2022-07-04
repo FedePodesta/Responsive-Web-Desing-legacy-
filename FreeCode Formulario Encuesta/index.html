@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+     <header><h1 id="title">Formulario de producto </h1></header>
+<body>
+    <p id="description">Selecciona tus preferencias y nos contactaremos al instante!</p>
+
+    <form id="survey-form" >
+
+        <div class="input-headings">
+
+        <label for="name" id="name-label">Nombre</label>
+        <input id="name" type="text" name="name" placeholder="Carlos Mejia" class="for-inputs" required> </imput> 
+        <br>
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="email" name="email" placeholder="CarlosMejia@gmail.com" class="for-inputs" required> </imput>
+        <br>
+        <label for="number" id="number-label">edad</label>
+        <input id="number" type="number" name="number" placeholder="18" min="18" max="65" class="for-inputs" required> </imput>
+        <br>
+
+        <label for="dropdown" id="model">Seleccione el Modelo</label>
+        <select id="dropdown" class="for-inputs">
+        <option value="Modelo 1">Modelo 1</option>
+        <option value="Modelo 2">Modelo 2</option>
+        <option value="Modelo 3">Modelo 3</option>
+        <option value="Modelo 4">Modelo 4</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="model_color" id="model_color">Model Color</label>
+        <br>
+        <input id="model_color" type="radio" id="black" name="color" value="black" >
+        <label for="model_color">Negro</label>
+            <br>
+        <input id="model_color" type="radio" id="Azul" name="color" value="Azul" >
+        <label for="model_color">Azul</label>
+        <br>
+        <input id="model_color" type="radio" id="Rojo" name="color" value="Rojo" >
+        <label for="model_color">Rojo</label>
+       <br>
+       <br>
+
+        <label for="features">Agregar Caracteristicas</label>
+        <br>
+        <input type="checkbox" id="checkbox" name="features" value="memoria">
+        <label for="checkbox">Memoria ilimitada - $5.000</label>
+            <br>
+        <input type="checkbox" id="checkbox" name="features" value="luces">
+        <label for="checkbox">Luces reflectantes - $7.000</label>
+            <br>
+        <input type="checkbox" id="checkbox" name="features" value="parlante">
+        <label for="checkbox">Parlantes Ultra - $15.000</label>
+            <br>
+         <br>
+
+        <label for="textarea">Comentarios Adicionales</label>
+        <br>
+        <textarea name="instrucciones" id="textarea" cols="40" rows="5"></textarea>
+        <br>
+
+        <input type="submit" id="submit" value="Crear Orden" class="submit-button">
+        
+
+    
+
+     </div>
+
+    </form>
+
+    
+</body>
+</html>
