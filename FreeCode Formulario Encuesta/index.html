@@ -16,27 +16,27 @@
 
         <div class="input-headings">
 
-        <label for="name" id="name-label">Nombre</label>
-        <input id="name" type="text" name="name" placeholder="Carlos Mejia" class="for-inputs" required> </imput> 
+        <div class="divm"><label class="labelm" for="name" id="name-label">Nombre</label>
+        <input class="inputm" id="name" type="text" name="name" placeholder="Carlos Mejia" class="for-inputs" required> </imput> 
+        </div><br>
+        <div class="divm"><label class="labelm" for="email" id="email-label">Email</label>
+        <input class="inputm" id="email" type="email" name="email" placeholder="CarlosMejia@gmail.com" class="for-inputs" required> </imput></div>
         <br>
-        <label for="email" id="email-label">Email</label>
-        <input id="email" type="email" name="email" placeholder="CarlosMejia@gmail.com" class="for-inputs" required> </imput>
-        <br>
-        <label for="number" id="number-label">edad</label>
-        <input id="number" type="number" name="number" placeholder="18" min="18" max="65" class="for-inputs" required> </imput>
+        <div class="divm"><label class="labelm" for="number" id="number-label">Edad</label>
+        <input class="inputm" id="number" type="number" name="number"  placeholder="18" min="18" max="65" class="for-inputs" required> </imput></div>
         <br>
 
-        <label for="dropdown" id="model">Seleccione el Modelo</label>
-        <select id="dropdown" class="for-inputs">
+       <div></div> <div class="divm" ><label class="labelm" class="inputm" for="dropdown" id="model">Seleccione el Modelo</label>
+        <select class="dropdm" class="inputm" id="dropdown" class="for-inputs"></div>
         <option value="Modelo 1">Modelo 1</option>
         <option value="Modelo 2">Modelo 2</option>
         <option value="Modelo 3">Modelo 3</option>
         <option value="Modelo 4">Modelo 4</option>
-        </select>
+        </select></div>
         <br>
         <br>
 
-        <label for="model_color" id="model_color">Model Color</label>
+        <div><label class="textarea for="model_color" id="model_color">Color del Modelo</label>
         <br>
         <input id="model_color" type="radio" id="black" name="color" value="black" >
         <label for="model_color">Negro</label>
@@ -49,7 +49,7 @@
        <br>
        <br>
 
-        <label for="features">Agregar Caracteristicas</label>
+        <label class="textarea for="features">Agregar Caracteristicas</label>
         <br>
         <input type="checkbox" id="checkbox" name="features" value="memoria">
         <label for="checkbox">Memoria ilimitada - $5.000</label>
@@ -58,11 +58,11 @@
         <label for="checkbox">Luces reflectantes - $7.000</label>
             <br>
         <input type="checkbox" id="checkbox" name="features" value="parlante">
-        <label for="checkbox">Parlantes Ultra - $15.000</label>
+        <label for="checkbox">Parlantes Ultra - $15.000</label></div>
             <br>
          <br>
 
-        <label for="textarea">Comentarios Adicionales</label>
+        <label class="textarea" for="textarea">Comentarios Adicionales</label>
         <br>
         <textarea name="instrucciones" id="textarea" cols="40" rows="5"></textarea>
         <br>
